@@ -2,6 +2,7 @@ name: micro_app_login
 description: A new Flutter package project.
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
@@ -10,6 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  micro_core:
+    git:
+      url: https://github.com/kindaniel/micro_core.git
+      ref: main  
 
 dev_dependencies:
   flutter_test:
